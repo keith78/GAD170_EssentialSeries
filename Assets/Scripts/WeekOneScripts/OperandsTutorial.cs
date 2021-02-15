@@ -37,11 +37,6 @@ public class OperandsTutorial : MonoBehaviour
 
         //This is an example of modulos it devides the number on the left by the right and returns the remainder.
         Debug.Log("This is an example of modulos, it devides a number evenly and returns the remainder which is: " + myAgeInDays % 5);
+    }    
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
