@@ -6,7 +6,7 @@ using UnityEngine;
 /// </summary>
 public class VeriableEtiquette : MonoBehaviour
 {
-  
+  // access type , the data type, variable name, default value.
     public int myFirstInt = 8; // An int stores whole numbers!
     private int mySecondInt = 2;
     public float myFirstFloat = 3.45f; // A float stores decimal numbers must have a f at the end to know its a float!
