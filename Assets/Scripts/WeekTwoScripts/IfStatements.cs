@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IfSatements : MonoBehaviour
+public class IfStatements : MonoBehaviour
 {
     public string myName = "Keith"; // A veriable to hold my name.
     public bool likesCoffee = true; // Does the user like coffee
