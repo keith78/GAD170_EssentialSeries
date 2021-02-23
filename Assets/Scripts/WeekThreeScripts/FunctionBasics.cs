@@ -18,8 +18,8 @@ public class FunctionBasics : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        printFulName();
-        printMyAge();
+        PrintFulName();
+        PrintMyAge();
     }
 
     // Update is called once per frame
@@ -27,11 +27,16 @@ public class FunctionBasics : MonoBehaviour
     {
 
     }
-    public void printFulName() // a function that stores my name in full
+    //The anatomy of a function is as follows:
+    // Access Type : public or private.
+    //The Return Type: Void + returns nothing, just do instructions
+    //the function name, the same naming scheme as a class all capital letters for all the first letters of the word.
+    //Finally our paranethese and curly braces with instructions inside. (){}
+    public void PrintFulName() // a function that stores my name in full
     {
         Debug.Log("My name is" + myName + " " + myLastName); // debug log that stores the calculation 
     }
-public void printMyAge() // a functiuon that prints my age
+public void PrintMyAge() // a functiuon that prints my age
     {
 
         int monthsInAYear = 12; // a tempurary int to store months in a year
