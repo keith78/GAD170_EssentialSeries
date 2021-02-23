@@ -35,6 +35,8 @@ public class FunctionBasics : MonoBehaviour
     public void PrintFulName() // a function that stores my name in full
     {
         Debug.Log("My name is" + myName + " " + myLastName); // debug log that stores the calculation 
+        // Functions can be called inside other functions
+        PrintMyAge();
     }
 public void PrintMyAge() // a functiuon that prints my age
     {
